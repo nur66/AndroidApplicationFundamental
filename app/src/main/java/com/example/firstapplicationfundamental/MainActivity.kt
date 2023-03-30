@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         initComponents()
 
-        sayHelloTextView.text = "Hi Nur, this is hardcode"
+        sayHelloTextView.text = resources.getString(R.string.app_name)
 
         sayHelloButton.setOnClickListener {
 
