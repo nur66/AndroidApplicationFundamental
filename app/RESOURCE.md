@@ -1,0 +1,24 @@
+#RESOURCE
+
+##String
+
+- Cara Membuatnya
+```
+<resources>
+    <integer name="maxPage">100</integer>
+    <integer-array name="numbers">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </integer-array>
+    <bool name="isProductionMode">true</bool>
+    <color name="background">#FF0000</color>
+</resources>
+```
+
+- Cara Memanggilnya
+```
+
+```
+
+##String Array
