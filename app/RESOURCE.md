@@ -18,7 +18,10 @@
 
 - Cara Memanggilnya
 ```
-
+Log.i("ValueResource", resources.getInteger(R.integer.maxPage).toString())
+Log.i("ValueResource", resources.getIntArray(R.array.numbers).joinToString(","))
+Log.i("ValueResource", resources.getBoolean(R.bool.isProductionMode).toString())
+Log.i("ValueResource", resources.getColor(R.color.background, theme).toString())
 ```
 
 ##String Array
